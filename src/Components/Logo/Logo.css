@@ -1,0 +1,10 @@
+.Tilt{
+ background:linear-gradient(to right, rgb(255, 179, 249), rgb(184, 232, 235));
+}
+
+.Tilt-inner{
+	height:100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
