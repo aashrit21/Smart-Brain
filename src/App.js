@@ -101,7 +101,7 @@ class App extends Component {
   getReponse = ()=>{
     this.setState({imageUrl: this.state.inputField})
     app.models
-    .predict("a403429f2ddf4b49b307e318f00e528b", this.state.input)
+    .predict("a403429f2ddf4b49b307e318f00e528b", this.state.inputField)
     .then(response => {
       fetch('https://afternoon-dawn-40069.herokuapp.com/image', {
         method: 'put',
